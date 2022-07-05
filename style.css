@@ -1,0 +1,65 @@
+/**
+ * autora: kanoon
+   data: Bootcamp da Dio
+   Nome: arquivo criado para dar estilo ao arquivo intitulado -> index.html
+ */
+
+body{
+
+    background: #F5F5DC;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* grupo de elementos usando # que tem a ve com o ID - único */
+
+#title, .subtitle, .post_title {
+
+    color: #2F4F4F;
+    font-family: Verdana;
+
+}
+
+#title{
+
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* grupo de elementos usando . que tem a ve com a class */
+
+.post_title{
+
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.post{
+   
+    background: #FFF;
+    padding: 15px;
+    border: 3px solid #000;
+    margin-bottom: 15px;
+}
+
+.post_content{
+
+    margin: 0;
+    margin-bottom: 15px; /*margem inferior*/
+}
+
+/*Estilo da Imagem*/
+
+.post_image{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+   }
+
+   .fa-brands {
+
+    color: #778899;
+   }
